@@ -1,0 +1,32 @@
+.expense-table-container {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  /* Soft shadow for subtle depth */
+    border-radius: 8px;  /* Rounded corners */
+    background-color: #fff;  /* White background for the table */
+}
+
+.expense-table {
+    width: 100%;  /* Table width to fill the container */
+    border-collapse: collapse;  /* Collapse borders for a clean look */
+    font-size: 16px;  /* Adequate font size for readability */
+}
+
+.expense-table th, .expense-table td {
+    text-align: left;  /* Align text to the left */
+    padding: 12px;  /* Padding for spacing within cells */
+    border-bottom: 1px solid #ddd;  /* Light line for separating rows */
+}
+
+.expense-table th {
+    background-color: #f4f4f4;  /* Slightly grey background for headers */
+    color: #333;  /* Dark grey color for text to ensure readability */
+}
+
+.expense-table tr:hover {
+    background-color: #f1f1f1;  /* Hover effect for rows */
+}
+
+.expense-table td {
+    color: #666;  /* Lighter text for the content to differentiate from headers */
+}
