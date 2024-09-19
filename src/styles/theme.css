@@ -1,0 +1,13 @@
+/* theme.css */
+/* the border border radius and etc could be definded too */
+:root {
+    --primary-color: #333;
+    --alert-color: #ff4545;
+    --background-color: #fff;
+    --header-bg-color: #eee;
+    --border-color: #ccc;
+    --hover-bg-color: #f9f9f9;
+
+    --font-size-normal: 16px;
+    --font-size-large: 24px;
+}
