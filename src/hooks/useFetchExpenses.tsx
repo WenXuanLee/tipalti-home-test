@@ -33,7 +33,7 @@ export const useFetchExpenses = (): UseFetchExpensesOutput => {
         setExpenses(data);
       } catch (error: unknown) {
         setExpenses(MOCK_EXPENSES_DATA);
-        setError(error?.message);
+        setError((error as Error).message);
       } finally {
         setLoading(false);
       }
